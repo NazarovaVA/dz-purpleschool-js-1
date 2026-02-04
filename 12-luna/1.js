@@ -6,7 +6,7 @@ function luna(str){
     let summa = 0;
     for (let i = 0; i < len; i++){
         if (i%2!=((len-1)%2) && 2*Number(s[i])>9){
-            summa += (2*Number(s[i]))%9;
+            summa += (2*Number(s[i]))-9;
         }else if (i%2!=((len-1)%2) && 2*Number(s[i])<=9){
             summa += 2*Number(s[i]);
         }else{
