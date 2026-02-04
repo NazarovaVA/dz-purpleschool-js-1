@@ -29,7 +29,7 @@ function sort(arr){
             arr2[i] = (((r.slice(0,2)).reverse()).concat(r[2])).join('-');
         }
     })
-    console.log(arr2);
+    return arr2;
 }
 
-sort(arr);
+console.log(sort(arr));
