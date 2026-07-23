@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(147, 167, 238); 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+input{
+    flex: 1;
+    width: 30vw;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+button{
+    width: 10vw;
+    background-color: rgb(47, 82, 208);
+    color: white;
+    border: none;
+}
+
+.panel{
+    background-color: rgb(94, 118, 205);
+    font-size: 60px;
+}
+
